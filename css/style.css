@@ -81,3 +81,161 @@ p {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+/* Technologies CSS Start*/
+
+.technologies h4{
+  margin-top: 5%;
+  font-weight: bold;
+}
+
+.container .container .row{
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.container .container .row .parent-card{
+  padding-bottom: 5%;
+  border-radius: 5px;
+  
+}
+
+.container .container .row .parent-card .card{
+  padding: 5%;
+  box-shadow: 0px 7px 21px rgba(0,0,0,0.1);
+}
+
+.container .container .row .parent-card .card img{
+  padding-bottom: 5%;
+}
+
+.container .container .row .parent-card .card h6{
+  margin-top: 5%;
+  font-weight: bold;
+}
+
+.viewProjects{
+  width: 30%;
+  margin: auto;
+  left: 35%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+/* Technologies CSS End */
+
+/* Team Section Start*/
+
+.team-head{
+  background: #ececec;
+  margin-top: 5%;
+}
+
+.team-head .text-center h4{
+  padding-top: 5%;
+  font-weight: bold;
+}
+
+.team-head .container{
+  margin-top: 5%;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #0e9e59 ;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.viewAll{
+  margin-top: 2.5%;
+  padding-bottom: 5%;
+}
+
+/* Team Section CSS Done */
