@@ -84,34 +84,30 @@ p {
 
 /* Technologies CSS Start*/
 
-.technologies h4{
-  margin-top: 5%;
-  font-weight: bold;
+.technologies h2{
+  margin: 50px 0px 10px 0px;
+  
 }
 
 .container .container .row{
   margin: auto;
-  margin-top: 5%;
+  margin-top: 30px;
   text-align: center;
 }
 
 .container .container .row .parent-card{
-  padding-bottom: 5%;
+  padding-bottom: 40px;
   border-radius: 5px;
   
 }
 
 .container .container .row .parent-card .card{
-  padding: 5%;
+  padding: 30px 10px 10px 15px;
   box-shadow: 0px 7px 21px rgba(0,0,0,0.1);
 }
 
-.container .container .row .parent-card .card img{
-  padding-bottom: 5%;
-}
-
 .container .container .row .parent-card .card h6{
-  margin-top: 5%;
+  margin-top: 20px;
   font-weight: bold;
 }
 
@@ -129,16 +125,15 @@ p {
 
 .team-head{
   background: #ececec;
-  margin-top: 5%;
+  margin-top: 50px;
 }
 
-.team-head .text-center h4{
-  padding-top: 5%;
-  font-weight: bold;
+.team-head .text-center h2{
+  padding: 50px 0px 10px 0px;
 }
 
 .team-head .container{
-  margin-top: 5%;
+  margin-top: 50px;
 }
 
 .image-flip:hover .backside,
@@ -242,8 +237,7 @@ p {
 
 /*Team Page CSS Starts*/
 
-.team-page h4{
-  font-weight: bold;
+.team-page h2{
   margin: 50px 0px 10px 0px;
 }
 
