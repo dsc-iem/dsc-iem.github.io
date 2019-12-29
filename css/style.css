@@ -81,6 +81,231 @@ p {
     max-width: 1140px;
     margin: 0 auto;
 }
+/* Technologies CSS Start*/
+
+.technologies h2{
+  margin: 50px 0px 10px 0px;
+  
+}
+
+.container .container .row{
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.container .container .row .parent-card{
+  padding-bottom: 40px;
+  border-radius: 5px;
+  
+}
+
+.container .container .row .parent-card .card{
+  padding: 30px 10px 10px 15px;
+  box-shadow: 0px 7px 21px rgba(0,0,0,0.1);
+}
+
+.container .container .row .parent-card .card h6{
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.viewProjects{
+  width: 30%;
+  margin: auto;
+  left: 35%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+/* Technologies CSS End */
+
+/* Team Section Start*/
+
+.team-head{
+  background: #ececec;
+  margin-top: 50px;
+}
+
+.team-head .text-center h2{
+  padding: 50px 0px 10px 0px;
+}
+
+.team-head .container{
+  margin-top: 50px;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #0e9e59 ;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.viewAll{
+  margin-top: 2.5%;
+  padding-bottom: 5%;
+}
+
+/* Team Section CSS Done */
+
+/*Team Page CSS Starts*/
+
+.team-page h2{
+  margin: 50px 0px 10px 0px;
+}
+
+.team-page p{
+  margin: 0px 0px 50px 0px;
+}
+
+.profile-card-1 {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  height:350px;
+  margin: 0px 0px 30px 0px;
+}
+.profile-card-1 .card-content {
+  width: 100%;
+  padding: 15px 25px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.profile-card-1 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  max-width: 140px;
+  box-shadow: 0px 7px 21px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+.profile-card-1 h2 {
+  margin: 0 0 5px;
+  font-weight: 600;
+  font-size: 25px;
+  color: #0e9e59;
+}
+.profile-card-1 h2 small {
+  display: block;
+  font-size: 15px;
+  margin-top:10px;
+  font-weight: bold;
+  color: #4286f5;
+}
+.profile-card-1 i {
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin:0 5px;
+}
+
+.profile-card-1 .icon-block{
+    float:left;
+    width:100%;
+    margin-top:15px;
+    padding-bottom: 10px;
+}
+
+.profile-card-1 .icon-block a{
+    text-decoration:none;
+}
+
+/*Team Page CSS Done*/
+=======
  /** EVENTS **/ 
 .section-margin{
   margin: 5% 20% 5% 20%;
@@ -149,4 +374,4 @@ hr.style2:after {
     box-shadow:  0 7px 21px rgba(0,0,0,0.1)
 ;
    /** EVENTS END **/   }
-  
+
