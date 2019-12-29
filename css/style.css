@@ -81,7 +81,6 @@ p {
     max-width: 1140px;
     margin: 0 auto;
 }
-
 /* Technologies CSS Start*/
 
 .technologies h2{
@@ -306,3 +305,73 @@ p {
 }
 
 /*Team Page CSS Done*/
+=======
+ /** EVENTS **/ 
+.section-margin{
+  margin: 5% 20% 5% 20%;
+}
+ 
+#car-margin{
+  padding-bottom: 5%
+}
+
+hr.style1{
+ border:none; 
+ color:rgb(60,90,180); 
+ background-color:rgb(60,90,180);
+ width:10%; text-align:center; margin: 0 auto
+  }
+
+  hr.style2 {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style2:after {
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+.btn-primary  {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+  background: #4286F5;}
+
+  .btn-primary:hover{
+    background: #fff;
+  color: #4286F5;
+  }
+  .social {
+    text-align: right;
+}
+
+ .social a {
+  transition: none;
+  color: #000;
+}
+ .social a:hover {
+  color: #4286F5;
+}
+
+.social i {
+  font-size: 30px;
+  margin: 0 4px;}
+  .card{
+    box-shadow:  0 7px 21px rgba(0,0,0,0.1)
+;
+   /** EVENTS END **/   }
+
