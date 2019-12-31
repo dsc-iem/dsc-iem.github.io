@@ -21,13 +21,54 @@
         <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" href="css/themify/css/themify-icons.css">
-        <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-        
+         <!-- Font-Awesome CDN 🍏 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Font Awesome CDN 🍎 -->
         
         </head>
         <body>
+          <!-- Navigation -->
+<header>
+<nav class="navbar navbar-expand-lg fixed-top navbar navbar-light " style="background-color:white;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="./assests/logos/DSC Institute  of Engineering & ManagementLight X-Logo x1.png" width="250"
+                height="50" alt="" srcset="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-item nav-link active" href="#">Home </a>
+                </li>
+
+                <li>
+                    <a class="nav-item nav-link" href="#">About</a>
+                </li>
+
+                <li>
+                    <a class="nav-item nav-link" href="#">Events<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li>
+                    <a class="nav-item nav-link" href="#">Contact Us</a>
+                </li>
+
+                <li>
+                    <a class="nav-item nav-link" href="#">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</header>
+<!-- Navigation Ends-->
+
         	<!--- carousel --->
-        	<section id ="car-margin" style="height: auto;">
+        	<section id="slides">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -36,30 +77,23 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="123.jpg" alt="First slide">
+      <img class="d-block w-100" src="img/intro1.jpg" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
     <h5>slide 1</h5>
     <p>...</p>
   </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="123.jpg" alt="Second slide">
+      <img class="d-block w-100" src="img/intro2.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
     <h5>slide 2</h5>
     <p>...</p>
   </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="123.jpg" alt="Third slide">
+      <img class="d-block w-100" src="img/intro3.jpg" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
     <h5>slide 3</h5>
-    <p>...</p>
-  </div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="123.jpg" alt="fourth slide">
-      <div class="carousel-caption d-none d-md-block">
-    <h5>slide 4</h5>
     <p>...</p>
   </div>
     </div>
@@ -75,13 +109,14 @@
 </div>
 </section>
 <!--- carousel end --->
-<h1 style="text-align: center; color: ">UPCOMING EVENTS</h1>
-<hr class="style1" style="height: 3px">
+
+<h2 class="text-center" style="padding-top: 5%;">UPCOMING EVENTS</h2>
+
 <!-- cards--->
 <section class="section-margin">
 <div class="card-deck">
   <div class="card">
-    <img class="card-img-top" src="123.jpg" alt="Card image cap">
+    <img class="card-img-top" src="img/123.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -94,7 +129,7 @@
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="123.jpg" alt="Card image cap">
+    <img class="card-img-top" src="img/123.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -106,7 +141,7 @@
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="123.jpg" alt="Card image cap">
+    <img class="card-img-top" src="img/123.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -124,8 +159,7 @@
 <hr class="style2" style="padding-bottom: 5%;">
 
 
-<h1 style="text-align: center; ">PAST EVENTS</h1>
-<hr class="style1" style="height: 3px">
+
 <!-- cards--->
 <section class="section-margin">
 <div class="card-deck">
@@ -168,7 +202,82 @@
   </div>
 </div>
 </section >
-<div style="padding-bottom: 10px;">
+<br>
+</div>
+<div class="container">
+    <br>
+    <br>
+
+    <br>
+    <br>
+    <h2 class="text-center">Contact us</h2>
+    <div class="row">
+        
+    <div class="col-lg-6" id="contact_us_container">
+        <br>
+        <br>
+        <div class="text-left">Have something to say? Contact us here</div><br>
+        <div class="socicons-list">
+                    
+            <a href="https://twitter.com/dsc_iem"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+    
+            <a href="https://www.facebook.com/dsciem"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+       
+            <a href="https://github.com/dsc-iem"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+            <a href="mailto:dsciemkol@gmail.com"><i class="ti-email fa-2x"></i>
+            </a>
+    </div>
+    <div class="footer-bar" id="footer-bar1">
+        <div id="footer-location" class="ink-black base-regular">
+            <div style="width: fit-content;">
+                 <div id="locate-link" class="ink-blue size-xs  footer-link">Locate Institute of Engineering & Management</div>
+            </div>
+        </div> 
+
+     </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="text-center" style="color: white !important; background-color: black;">
+    <br><br>
+  <div class="copyright">
+         Copyright &copy; <strong>DSC IEM Kolkata </strong>.
+      
+
+
+        <h6 id="footer-credits-button" class="footer-link text-center" style="color: white !important; ">Devel❤per Credits</h6>
+        <div  id="footer-credits-body" class="size-xs base-semilight">
+            <a href="http://lol.com/"><div class="footer-credit">Greedy Goat</div></a> 
+            <a href="https://lol.com"><div class="footer-credit">Dirty Pig</div></a> 
+            <a href="https://lol.com"><div class="footer-credit">Toxic Snake</div></a> 
+            <a href="https://lol.com"><div class="footer-credit">Ugly Crow</div></a> 
+            <a href="https://lol.com"><div class="footer-credit">Giant Elephant</div></a> 
+            <a href="https://lol.com"><div class="footer-credit">Lion King</div></a> 
+        </div>
+        <br>
+        
+
+
+  
+</div>
+</div>
+
+
+<script type="text/javascript" src="scripts/home.js"></script>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
