@@ -381,8 +381,15 @@ p {
 }
 
 /* Technologies CSS End */
-
+#section-margin .card 
+{
+  padding: 80x 30px !important;
+}
 /* Team Section Start*/
+.card img
+{
+  height: 200px !important;
+}
 
 .team-head{
   background: #ececec;
