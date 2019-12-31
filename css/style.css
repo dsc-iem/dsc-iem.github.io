@@ -564,13 +564,15 @@ p {
 }
 
 .profile-card-1 {
-    position: relative;
-    float: left;
-    overflow: hidden;
-    width: 100%;
-    text-align: center;
-    height: 350px;
-    margin: 0px 0px 30px 0px;
+  position: relative;
+  float: left;
+  box-shadow: 0px 0px 17px 7px #0000000d;
+  border-radius: 1rem !important;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  height:350px;
+  margin: 0px 0px 30px 0px;
 }
 
 .profile-card-1 .card-content {
@@ -582,14 +584,16 @@ p {
 }
 
 .profile-card-1 .profile {
-    border-radius: 50%;
-    position: absolute;
-    bottom: 50%;
-    left: 50%;
-    max-width: 140px;
-    box-shadow: 0px 7px 21px rgba(0, 0, 0, 0.1);
-    -webkit-transform: translate(-50%, 0%);
-    transform: translate(-50%, 0%);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  height: 8rem;
+  width: 8rem;
+  max-width: 140px;
+  box-shadow: 0px 7px 21px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
 }
 
 .profile-card-1 h2 {
