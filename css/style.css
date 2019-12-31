@@ -276,7 +276,10 @@ p {
     max-width: 600px;
     margin-bottom:1rem;
   }
- 
+ #footer{
+   width:100%;
+   padding: 2rem 0.6rem;
+ }
   .footer-bar{
     padding: 0.7rem 0rem;
   }
@@ -305,7 +308,7 @@ p {
   cursor: pointer;
 }
 .footer-link:hover{
-  color:rgb(122, 122, 122);
+  color:rgb(199, 199, 199);
 }
 .footer-icon{
   height: 1.1em;
@@ -329,7 +332,7 @@ p {
 .footer-credit{
   cursor: pointer;
   margin-right: 1.1rem;
-  color:rgb(32, 32, 32);
+  color:rgb(161, 161, 161);
 }
 .footer-credit:hover{
   opacity: 0.7;
