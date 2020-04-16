@@ -706,3 +706,8 @@ WHY US SECTION
 .nav-item{
     font-weight: 600;
 }
+
+.card-img-top{
+    height: 450px !important;
+    width: 100%;
+}
