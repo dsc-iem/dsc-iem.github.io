@@ -133,6 +133,10 @@ p {
     padding-bottom: 50px;
 }
 
+.locate-size{
+    font-size: 25px;
+}
+
 .size-xs {
     font-size: 0.8rem;
 }
@@ -273,18 +277,19 @@ p {
 }
 
 #contact_us_container {
-    padding: 2rem 1rem;
+    padding: 2rem 1rem; 
 }
 
 #faqs_container {
-    padding: 2rem 1rem;
-    background-color: #ffffff;
+    padding: 0.2rem 1rem;
+    padding-left: 20px;
 }
 
 #faqs {
     max-width: 700px;
-    outline: none;
+    outline: none; 
 }
+
 
 .faq-title {
     padding: 0.5rem 2rem;
@@ -711,3 +716,9 @@ WHY US SECTION
     height: 450px !important;
     width: 100%;
 }
+
+.fax:hover{
+    font-size: 5.8vh;
+}
+ 
+/* Embedded-Map */
