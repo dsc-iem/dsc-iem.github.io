@@ -272,13 +272,18 @@ p {
     background: rgb(231, 231, 231);
 }
 
+#contact{
+    background-color: #ececec;
+}
+
 #contact_us_container {
     padding: 2rem 1rem;
 }
 
 #faqs_container {
-    padding: 2rem 1rem;
-    background-color: #ffffff;
+    padding: 0.2rem 1rem;
+    padding-left: 20px;
+    background-color: #ececec;
 }
 
 #faqs {
@@ -309,6 +314,12 @@ p {
     display: none;
     max-width: 600px;
     margin-bottom: 1rem;
+}
+
+@media(min-width:320px){
+    .faq-head{
+        padding-top: 20px;
+    }
 }
 
 #footer {
@@ -710,4 +721,8 @@ WHY US SECTION
 .card-img-top{
     height: 450px !important;
     width: 100%;
+}
+
+.fax:hover{
+    font-size: 5.8vh;
 }
