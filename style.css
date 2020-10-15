@@ -619,7 +619,7 @@ hr.style2:after {
   color: #4286F5;
   }
   .social {
-    text-align: right;
+    text-align:right;
 }
 
  .social a {
@@ -632,7 +632,9 @@ hr.style2:after {
 
 .social i {
   font-size: 30px;
-  margin: 0 4px;}
+  margin: 0 4px;
+  
+}
   .card{
     box-shadow:  0 7px 21px rgba(0,0,0,0.1);}
 
