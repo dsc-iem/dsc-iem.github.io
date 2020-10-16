@@ -363,6 +363,7 @@ p {
   box-shadow: 0px 7px 21px rgba(0,0,0,0.1);
 }
 
+
 .container .container .row .parent-card .card img{
   padding-bottom: 5%;
 }
@@ -618,6 +619,7 @@ hr.style2:after {
     background: #ececec;
   color: #4286F5;
   }
+
   .social {
     text-align:right;
 }
