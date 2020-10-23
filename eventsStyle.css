@@ -182,6 +182,7 @@ html, body{
     min-width: 100px;
     justify-content: center;
     border: 2px solid #4285F4;
+    background-color: #4285F4;
     border-radius: 5px;
     opacity: 0;
     animation: grow 0.5s;
@@ -257,8 +258,8 @@ section div{
     display:flex;
 }
 .images img{
-    height:100%;
-    max-width: 100%;
+    max-height: 450px;
+    width: 100%;
     border-radius: 5px;
 }
 .images:nth-child(4n+1){
