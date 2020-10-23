@@ -1,0 +1,478 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html, body{
+    margin:0;
+    padding:0;
+    /* background: url("https://img.freepik.com/free-vector/abstract-halftone-background_23-2148609053.jpg?size=626&ext=jpg") no-repeat center center fixed;
+    -webkit-background-size: cover; */
+    font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    overflow-x: hidden;
+}
+/* *************************----starts----navbar styling************************* */
+
+.nav{
+    display:flex;
+    justify-content:center;
+    padding: 10px 25px 10px 25px;
+    background-color: whitesmoke;
+    font-size: 18px;
+    font-weight: 600;
+    position: fixed; 
+    top: 0; 
+    width: 100vw;
+    height: 90px;
+    z-index:2;
+}
+.logo{
+    padding:10px;
+}
+.logo a img{
+    width:250px;
+    height:50px;
+    z-index:10;
+}
+.menu{
+    margin-left:auto;
+}
+.nav-links {
+    display:flex;
+    list-style-type: none;
+}
+.menu ul li{
+    padding: 10px;
+}
+.menu ul li a{
+    color: rgba(0,0,0,.5);
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color:black;
+    cursor: pointer;
+}
+/* -************************---Ends---- navbar styling************************* */
+/* -************************---starts---- Animated logo************************* */
+.svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    padding-top:10%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#animlogo{
+    animation: fill 0.5s ease forwards 3s;
+    fill: none;
+}
+.fillD{
+    animation: animD 0.5s ease forwards 3.6s ;
+}
+.fillS{
+    animation: animS 0.5s ease forwards 3.6s ;
+}
+.fillC{
+    animation: animC 0.5s ease forwards 3.6s ;
+}
+.fillDash{
+    animation: animDash 0.5s ease forwards 3.6s ;
+}
+.filliem{
+    animation: animiem 0.5s ease forwards 3.6s ;
+}
+.d {
+    stroke:#4285F4;stroke-width:8;stroke-miterlimit:10;
+    stroke-dasharray: 550px;
+    stroke-dashoffset: 550px;
+    animation: line-anim 2s ease forwards ;
+}
+.s {
+    stroke:#EA4335;stroke-width:8;stroke-miterlimit:10;
+    stroke-dasharray: 700px;
+    stroke-dashoffset: 700px;
+    animation: line-anim 2s ease forwards 0.3s;
+}
+.c {
+    stroke:#FBBC05;stroke-width:8;stroke-miterlimit:10;
+    stroke-dasharray: 680px;
+    stroke-dashoffset: 680px;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+.dash {
+    stroke:#34A853;stroke-width:8;stroke-miterlimit:10;
+    stroke-dasharray: 160px;
+    stroke-dashoffset: 160px;
+    animation: line-anim 2s ease forwards 0.9s;
+}
+.i {
+    stroke:#AFAFAF;stroke-width:8;stroke-miterlimit:10;
+    stroke-dasharray: 375px;
+    stroke-dashoffset: 375px;
+    animation: line-anim 2s ease forwards 1.2s;
+}
+.e {
+    stroke:#AFAFAF;stroke-width:8;stroke-miterlimit:10;
+    stroke-dasharray: 765px;
+    stroke-dashoffset: 765px;
+    animation: line-anim 2s ease forwards 1.5s;
+}
+.m {
+    stroke:#AFAFAF;stroke-width:8;stroke-miterlimit:10;
+    stroke-dasharray: 1365px;
+    stroke-dashoffset: 1365px;
+    animation: line-anim 2s ease forwards 1.8s;
+}
+@keyframes line-anim {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes animD{
+    from{
+        fill:transparent;
+    }
+    to{
+        fill:#4285F4;
+    }
+}
+@keyframes animS{
+    from{
+        fill:transparent;
+    }
+    to{
+        fill:#EA4335;
+    }
+}
+@keyframes animC{
+    from{
+        fill:transparent;
+    }
+    to{
+        fill:#FBBC05;
+    }
+}
+@keyframes animDash{
+    from{
+        fill:transparent;
+    }
+    to{
+        fill:#34A853;
+    }
+}
+@keyframes animiem{
+    from{
+        fill:transparent;
+    }
+    to{
+        fill:#AFAFAF;
+    }
+}
+/* -***************---Ends---- Animated logo******************* */
+.hero{
+    height: 80vh;
+}
+/* -***************---Starts---- separator styling and animations******************* */
+.separator{
+    padding: 10px;
+    display:flex;
+}
+.separator hr{
+    width: 20%px;
+    min-width: 100px;
+    justify-content: center;
+    border: 2px solid #4285F4;
+    border-radius: 5px;
+    opacity: 0;
+    animation: grow 0.5s;
+    animation-delay: 2.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes grow {
+    from{
+        width: 0;
+    }
+    to{
+        opacity: 1;
+        width: 20%;
+        min-width: 100px;
+    }
+}
+
+/* -***************---Ends---- separator styling animation******************* */
+/* -***************---Starts---- display Events styling animation******************* */
+#events-display{
+    text-align: center;
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 0.8;
+    animation: dropIn 1s linear 2.3s 1 forwards;
+    opacity:0;
+}
+ @keyframes dropIn {
+     from{
+        transform: translateY(-2rem);
+     }
+     to{
+         opacity:1;
+         transform: translateY(0);
+     }
+ }
+/* -***************---Ends---- display Events styling animation******************* */
+/* -*************** --Starts blob Styling  ******************* */
+.blob img{
+    width: 100%;
+    animation: fadeIn 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.blob{
+    margin:0;
+    padding:0;
+    position:relative;
+    z-index:-2;
+    height:100vh;
+}
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+/* -*************** --Ends blob Styling  ******************* */
+/* -***************---Starts---- Image grid styling******************* */
+section{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(4,70vh);
+    padding: 20px;
+}
+section div{
+    padding:20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display:flex;
+}
+.images img{
+    height:100%;
+    max-width: 100%;
+    border-radius: 5px;
+}
+.images:nth-child(4n+1){
+    justify-content: flex-end;
+    visibility:hidden;
+}
+
+.event-des{
+    flex-direction: column;
+    visibility: hidden;
+}
+.event-des h3{
+    color: #EA4335;
+    margin: 5px;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+.event-des p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+section div:nth-child(4n) {
+    text-align: right;
+}
+
+
+section div:nth-child(1){order:1;}
+section div:nth-child(2){order:2;}
+section div:nth-child(3){order:4;}
+section div:nth-child(4){order:3;}
+section div:nth-child(5){order:5;}
+section div:nth-child(6){order:6;}
+section div:nth-child(7){order:8;}
+section div:nth-child(8){order:7;}
+
+
+/* -***************---Ends---- Image grid styling******************* */
+/* -***************--Starts---- Footer styling******************* */
+footer{
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+}
+#contactus h2{
+    font-family: "Lato", sans-serif;
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+#contactus h3{
+    font-weight: 400;
+}
+.socicons-list i{
+    margin:20px;
+    color: rgb(66, 164, 255);
+}
+.socicons-list i:hover{
+    margin:15px;
+    color:rgb(139, 139, 139);
+}
+.socicons-list a{
+    text-decoration: none;
+}
+#locate-link a{
+    text-decoration: none;
+    color: rgb(66, 164, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+#locate-link a:hover{
+    color:rgb(139, 139, 139);
+}
+#footer-credits-button{
+    font-size:1.4rem;
+    margin:0;
+}
+#footer-credits-button-clicked{
+    font-size:1.4rem;
+    margin:0;
+    visibility:hidden;
+}
+#footer-credits-button:hover{
+    cursor:pointer;
+}
+.copyright{
+    font-size:1.4rem;
+}
+#footer{
+    padding: 50px;
+}
+#footer-credits-body{
+    display:none;
+}
+#footer-credits-body-active{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#footer-credits-body-active a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(165, 165, 165);
+}
+#footer-credits-body-active a:hover{
+    color: white;
+}
+.footer-credit{
+    margin: 5px;
+}
+
+
+/* -***************--Ends---- Footer styling******************* */
+/* -***************-----start-----Making it responsive******************* */
+
+@media screen and (max-width:900px){
+    /************** NAVBAR starts***************/
+    .lines{
+        height: 3px;
+        width: 30px;
+        margin: 5px;
+        background-color: rgb(100,100,100);
+    }
+    .menu {
+        position:relative;
+    }
+    .hamburger{
+        position: absolute;
+        right: 3%;
+        top: 50%;
+        transform:translate(-3% ,-50%);
+        cursor: pointer;
+        z-index: 100;
+    }
+    .nav-links {
+        display:flex;
+        flex-direction: column;
+        height:100vh;
+        width:100vw;
+        align-items:center;
+        list-style-type: none;
+        background-color: whitesmoke;
+        padding-bottom: 10vh;
+        padding-left: 20vh;
+        clip-path: circle(90px at 90% -10%);
+        -webkit-clip-path: circle(90px at 90% -10%);
+        transition: all 0.5s ease-in-out;
+        
+    }
+    .nav-links.open{
+        clip-path: circle(80vh at 90% -10%);
+        -webkit-clip-path: circle(80vh at 90% -10%);
+        background-color: #4285F4;
+        margin:0;
+    }
+    .logo.hid{
+        display:none;
+    }
+    .menu ul li{
+        padding: 20px;
+    }
+    .blob{
+        display:none;
+    }
+    .logo{
+        position:absolute;
+        z-index: 200;
+        height: 40px;
+        width: 200px;
+        top: 20px;
+        left: 10px;
+        padding:0;
+    }
+    .logo a img{
+        height: 100%;
+        width: 100%;
+    }
+    /************** NAVBAR ends***************/
+    /************** IMAGE GRID starts***************/
+    section{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    section div:nth-child(n){order:0;}
+    section div:nth-child(n) {
+        text-align: center ;
+    }
+    .event-des{
+        margin-top: 0;
+    }
+    .event-des p{
+        font-size:1rem;
+        text-align: justify;
+    }
+    .event-des h3{
+        font-size:1.2rem;
+    }
+    .images{
+        margin-bottom:0;
+    }
+    /************** IMAGE GRID starts***************/
+
+}
+
+@media screen and (max-width:650px){
+    #events-display{
+        font-size: 2rem;
+    }
+    .hero{
+        height: 50vh;
+    }
+}
+
+
+/* -***************-----ends-----Making it responsive******************* */
